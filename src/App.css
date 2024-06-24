@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+.dojo{
+  list-style-type: none; 
+  padding-left: 20px;
+  text-align: left;
+
+}
+.dojo li::before {
+  content: "*";
+  margin-right:8px; 
+  color:#fff;
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
